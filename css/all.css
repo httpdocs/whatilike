@@ -1,4 +1,94 @@
 
+html{
+   font-size: 20px;
+}
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+body{
+    font-size: 1rem;
+    background: url(../image/bg/brick-wall.png) repeat;
+}
+
 .nav-tabs{
     border-bottom: none;
+    font-weight: bold;
 }
+
+#myTabContent .tab-pane{
+    margin: 1em 1em;
+}
+
+#myTabContent li{
+    width: 12rem;
+    height: 9rem;
+    border-bottom: 1px solid black;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
+}
+
+
+#myTabContent li:hover{
+    background-color: #9a979c;
+    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#myTabContent li  .web-content  .web-content-top{
+    width: 12rem;
+    height: 6rem;
+}
+
+#myTabContent li  .web-content  .web-content-top .web-logo,#myTabContent li  .web-content  .web-content-top .web-name{
+    float: left;
+    margin: 0.4rem auto;
+}
+
+#myTabContent li  .web-content  .web-content-top .web-logo{
+    margin: 0.4rem auto;
+}
+
+#myTabContent li  .web-content  .web-content-top .web-name{
+    line-height: 4.2rem;
+    text-align: center;
+    font-weight: bold;
+    width: 7rem;
+}
+
+#myTabContent li  .web-content  .web-content-bottom {
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:768px) and (min-width: 544px){
+
+    #myTabContent li{
+        margin-right: 1em;
+        float: left;
+        width: 45%;
+        height: 9rem;
+        border-bottom: 1px solid black;
+        list-style: none;
+        border-radius: 10px;
+        box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
+    }
+
+}
+@media screen and (max-width:544px) and (min-width: 300px){
+
+    #myTabContent li{
+        width: 100%;
+        height: 9rem;
+        border-bottom: 1px solid black;
+        list-style: none;
+        border-radius: 10px;
+        box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
+    }
+
+}
+
+
+
+

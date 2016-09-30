@@ -31,6 +31,7 @@ body{
 
 /*悬停的效果*/
 #myTabContent li:hover,.left_pane .panel-heading:hover{
+    color: #000;
     background-color: #9a979c;
     background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
@@ -61,17 +62,65 @@ body{
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 769px) and (min-width: 676px){
     #myTabContent li{
-        width: 200px!important;
-        height: 180px;
+        width: 12rem !important;
+        height:9rem;
+        border-bottom: 1px solid black;
+        list-style: none;
+        border-radius: 10px;
+        box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
+        margin-left:55px;
+        float: left;
+    }
+
+
+    #myTabContent li  .web-content  .web-content-top{
+        width: 12rem;
+        height: 6rem;
+    }
+
+
+    #myTabContent li  .web-content  .web-content-top .web-name{
+        line-height: 4.2rem;
+        text-align: center;
+        font-weight: bold;
+        width: 7rem;
+    }
+}
+
+@media only screen and (max-width: 670px){
+
+    #myTabContent li{
+        width: 4.6rem !important;
+        height:13rem;
         border-bottom: 1px solid black;
         list-style: none;
         border-radius: 10px;
         box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
         float: left;
     }
-}
 
+    #myTabContent li  .web-content  .web-content-top{
+        width:4.5rem;
+        height:3rem;
+    }
+    
+    #myTabContent li  .web-content  .web-content-top .web-name{
+        line-height:20%;
+        text-align: center;
+        font-weight: bold;
+        width:4.5rem;
+        height:1rem;
+        color: #079c49;
+    }
+    
+    #myTabContent li  .web-content  .web-content-bottom .web-desc{
+        text-align: center;
+        font-weight: bold;
+        width:4.5rem;
+        height:4rem;
+    }
+}
 
 

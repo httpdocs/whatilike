@@ -63,12 +63,13 @@ body{
 
 @media only screen and (max-width: 769px) {
     #myTabContent li{
-        width: 100% !important;
-        height: 9rem;
+        width: 200px!important;
+        height: 180px;
         border-bottom: 1px solid black;
         list-style: none;
         border-radius: 10px;
         box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
+        float: left;
     }
 }
 

@@ -151,8 +151,21 @@ body{
     }
 }
 
-
 @media only screen and (max-width: 380px) and (min-width: 360px){
+    .container-fluid #header{
+        width: 300px;
+        height: 60px;
+    }
+    .container-fluid #header li{
+        width: 60px;
+        height: 60px;
+    }
+    /*专门针对该屏幕大小写的*/
+    #whatilikes-tab{
+        width: 119px;
+        height: 78px;
+        line-height: 60px;
+    }
 
     #myTabContent li{
         width: 3.6rem !important;
@@ -187,9 +200,23 @@ body{
     }
 }
 
-
-
 @media only screen and (max-width: 340px) and (min-width: 300px){
+
+    .container-fluid #header{
+        width: 300px;
+        height: 60px;
+    }
+    .container-fluid #header li{
+        width: 60px;
+        height: 60px;
+    }
+
+    /*专门针对该屏幕大小写的*/
+    #whatilikes-tab{
+        width: 119px;
+        height: 78px;
+        line-height: 60px;
+    }
 
     #myTabContent li{
         width: 3.4rem !important;

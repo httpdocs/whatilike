@@ -111,12 +111,13 @@ body{
         line-height: 4.2rem;
         text-align: center;
         font-weight: bold;
-        width: 5rem;
+        width: 3rem;
+        font-size: 16px;
         float: left;
     }
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 450px){
 
     #myTabContent li{
         width: 4.0rem !important;
@@ -140,6 +141,7 @@ body{
         font-weight: bold;
         width:4.0rem;
         height:1rem;
+        font-size: 14px;
         color: #079c49;
     }
 
@@ -235,9 +237,10 @@ body{
     }
 
     #myTabContent li  .web-content  .web-content-top .web-name{
-        line-height:20%;
+        line-height:27%;
         text-align: center;
         font-weight: bold;
+        font-size: 14px;
         width:3.4rem;
         height:1rem;
         color: #079c49;

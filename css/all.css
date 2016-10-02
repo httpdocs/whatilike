@@ -10,6 +10,31 @@ body{
     font-size: 1rem;
     background: url(../image/bg/brick-wall.png) repeat;
 }
+#search{
+    margin-bottom:20px;
+}
+#searchicon{
+    margin: 0px auto;
+    width: 120px;
+    height: 70px;
+    background: url(../image/bg/googleicon.png);
+}
+#search_input{
+    border-radius: 10px;
+    margin-left: 20%;
+    width: 55%;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
+}
+#search_btn{
+    width: 15%;
+    border-radius: 10px;
+    box-shadow: #8a6d3b;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
+    background: url(../image/bg/searchbtn02.png) no-repeat center;
+}
+#search_btn:hover{
+    background: url(../image/bg/gsearch.png) no-repeat center;
+}
 
 .nav-tabs{
     border-bottom: none;

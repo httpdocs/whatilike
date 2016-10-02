@@ -52,7 +52,21 @@
     }())
 
   </script>
-
+    <div id="search">
+        <div id="searchicon"></div>
+        <!--Google站内搜索开始-->
+        <div class="search_item">
+            <script type="text/javascript">
+                function googlesearch () {
+                    var wq=document.getElementsByName("wq")[0].value;
+                    var link="http://www.google.com/search?domains=www.nowamagic.net&sitesearch=www.nowamagic.net&q="+wq;
+                    window.open(link); }
+            </script>
+            <input id="search_input" type="text" name="wq"/>
+            <input id="search_btn" type="submit" onclick="javascript :googlesearch()" value=" " />
+        </div>
+        <!--Google站内搜索结束-->
+    </div>
   <!--here comes my new programing-->
   <div class="container-fluid">
       <div id="header">

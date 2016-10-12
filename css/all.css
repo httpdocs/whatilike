@@ -56,6 +56,8 @@ body{
 
 /*悬停的效果*/
 #myTabContent li:hover,.left_pane .panel-heading:hover{
+    transform: translateY(-15px);
+    transition: all 0.4s;
     color: #000;
     background-color: #9a979c;
     background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");

@@ -8,7 +8,7 @@ a:hover{
 }
 body{
     font-size: 1rem;
-    background: url(http://oh0ygta31.bkt.clouddn.com/brick-wall.png) repeat;
+    background: url(../image/bg/brick-wall.png) repeat;
 }
 #search{
     margin-bottom:20px;
@@ -17,7 +17,7 @@ body{
     margin: 0px auto;
     width: 120px;
     height: 70px;
-    background: url(http://oh0ygta31.bkt.clouddn.com/googleicon.png);
+    background: url(../image/bg/googleicon.png);
 }
 #search_input{
     border-radius: 10px;
@@ -30,10 +30,10 @@ body{
     border-radius: 10px;
     box-shadow: #8a6d3b;
     box-shadow: 0 7px 8px rgba(0, 0, 0, 0.67);
-    background: url(http://oh0ygta31.bkt.clouddn.com/searchbtn02.png) no-repeat center;
+    background: url(../image/bg/searchbtn02.png) no-repeat center;
 }
 #search_btn:hover{
-    background: url(http://oh0ygta31.bkt.clouddn.com/gsearch.png) no-repeat center;
+    background: url(../image/bg/gsearch.png) no-repeat center;
 }
 
 .nav-tabs{
